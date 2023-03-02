@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Icon1 from '../router/Icon1'
 import {
     Paper,
     makeStyles,
@@ -87,7 +86,7 @@ const ModalContent = ({ width, height, isResize, children }) => {
                     height={height}
                     width={width}
                     className={classes.resizable}
-                ><Icon1/>
+                >모달2
                    {/*  {children} */}
                 </ResizableBox>
             ) : (
@@ -100,10 +99,10 @@ const ModalContent = ({ width, height, isResize, children }) => {
     );
 };
 
-const PaperComponent = (props) => {
+const PaperComponent = (/* props */) => {
     return (
         <Draggable handle="#draggable-modal-title">
-            <Paper {...props} />
+            <Paper /* {...props} */ />
         </Draggable>
     );
 };

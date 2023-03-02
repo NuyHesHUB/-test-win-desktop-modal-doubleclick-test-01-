@@ -11,20 +11,27 @@ const App = () => {
     const openModal=(e)=>{
         setModal(!modal)
     }
-        const favoriteBtn = useRef(null);
-        const onFavoriteToggle = () => {
+        /* const favoriteBtn = useRef(null);
+        const onFavoriteToggle = (e) => {
           favoriteBtn.current.style.backgroundColor = '#959595';
           favoriteBtn.current.style.border = '#959595';
-        }
+          e.target.value();
+          console.log(e.target.value());
+        } */
     
    
   return (
     <div className='desktop'>
-        <div className='icon favoriteButton' onClick={() => {onFavoriteToggle();}} onDoubleClick={openModal} ref={favoriteBtn}>1</div>
+        <div className='icon favoriteButton' onDoubleClick={openModal} >1</div>
+        <div className='icon favoriteButton' onDoubleClick={openModal} >2</div>
+        <div className='icon favoriteButton' onDoubleClick={openModal} >3</div>
+        <div className='icon favoriteButton' onDoubleClick={openModal} >4</div>
+        <div className='icon favoriteButton' onDoubleClick={openModal} >5</div>
+        {/* <div className='icon favoriteButton' onClick={() => {onFavoriteToggle();}} onDoubleClick={openModal} ref={favoriteBtn}>1</div>
         <div className='icon favoriteButton' onClick={() => {onFavoriteToggle();}} onDoubleClick={openModal} ref={favoriteBtn}>2</div>
         <div className='icon favoriteButton' onClick={() => {onFavoriteToggle();}} onDoubleClick={openModal} ref={favoriteBtn}>3</div>
         <div className='icon favoriteButton' onClick={() => {onFavoriteToggle();}} onDoubleClick={openModal} ref={favoriteBtn}>4</div>
-        <div className='icon favoriteButton' onClick={() => {onFavoriteToggle();}} onDoubleClick={openModal} ref={favoriteBtn}>5</div>
+        <div className='icon favoriteButton' onClick={() => {onFavoriteToggle();}} onDoubleClick={openModal} ref={favoriteBtn}>5</div> */}
         {/* <div className="icon" onClick={openModal}>1</div>
         <div className="icon" onClick={openModal}>2</div>
         <div className="icon" onClick={openModal}>3</div>

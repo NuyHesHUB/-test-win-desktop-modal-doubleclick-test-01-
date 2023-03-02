@@ -3,7 +3,14 @@ import React from 'react';
 const Icon2 = () => {
     return (
         <div>
-            아이콘2
+            <h2>아이콘2번 페이지입니다.</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus eligendi tenetur molestias quos quidem ea voluptatem porro possimus qui numquam doloribus modi quisquam magnam, autem repellat exercitationem omnis commodi sit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus eligendi tenetur molestias quos quidem ea voluptatem porro possimus qui numquam doloribus modi quisquam magnam, autem repellat exercitationem omnis commodi sit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus eligendi tenetur molestias quos quidem ea voluptatem porro possimus qui numquam doloribus modi quisquam magnam, autem repellat exercitationem omnis commodi sit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus eligendi tenetur molestias quos quidem ea voluptatem porro possimus qui numquam doloribus modi quisquam magnam, autem repellat exercitationem omnis commodi sit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus eligendi tenetur molestias quos quidem ea voluptatem porro possimus qui numquam doloribus modi quisquam magnam, autem repellat exercitationem omnis commodi sit.
+            </p>
         </div>
     );
 };
